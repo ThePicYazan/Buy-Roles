@@ -1,31 +1,32 @@
-## مشروع بيع رتب ديسكورد المؤقتة
+## Discord Temporary Role Selling Project
 
-هذا المشروع يهدف إلى توفير وسيلة لبيع رتب ديسكورد المؤقتة داخل المجتمعات التي تستخدم ديسكورد كوسيلة للاتصال والتواصل. ويستخدم هذا المشروع تقنية `discord.js v14.8.0` و `database mongoose` لتحقيق هذه الغاية.
+This project aims to provide a means of selling temporary Discord roles within communities that use Discord as a means of communication and collaboration. This project utilizes `discord.js v14.8.0` and `mongoose database` to achieve this goal.
 
-## كيفية استخدام المشروع
+## How to use the project
 
-يمكن للمستخدمين استخدام هذا المشروع من خلال إتباع الخطوات التالية:
+Users can use this project by following the steps below:
 
-1. تثبيت المشروع على الخادم.
-2. تعديل ملف config.json بمعلومات الخادم المناسبة.
-3. تشغيل المشروع باستخدام الأمر `npm start`.
+1. Install the project on the server.
+2. Modify the `config.json` file with the appropriate server information.
+3. Run the project using the `npm start` command.
 
+## Project requirements
 
-## متطلبات المشروع
+Users must meet the following requirements before installing and using this project:
 
-يجب على المستخدمين تلبية المتطلبات التالية قبل تثبيت واستخدام هذا المشروع:
+1. Users must install `node.js` and `npm` on their server.
+2. Users must create a Discord application and obtain an API key.
+3. Users must create a Mongo DB account and obtain a link to the database.
 
-1. يجب على المستخدمين تثبيت `node.js` و `npm` على الخادم الخاص بهم.
-2. يجب على المستخدمين إنشاء تطبيق Discord والحصول على مفتاح API.
-3. يجب على المستخدمين إنشاء حساب Mongo DB والحصول على رابط لقاعدة البيانات.
+## Config.json file
 
-## ملف config.json
+In the `config.json` file, the following values must be modified with the appropriate server information:
 
-في ملف `config.json`، يجب تعديل القيم التالية بمعلومات الخادم المناسبة:
+- `prefix`: This prefix is used to identify the commands that users can use.
+- `owner`: `owner` should be set to your user ID.
+- `probot`: `probot` should be set to your bot's ID.
+- `buylogs`: `buylogs` should be set to the ID of the sales logs channel.
+- `webhookurl`: `webhookurl` should be set to your error tracking webhook link.
+- `buyrole1`, `buyrole2`, `buyrole3`, `buyrole4`: These roles should be set to the different roles that users can purchase. 
 
-- `prefix` : يستخدم هذا البريفيكس لتحديد الأوامر التي يمكن للمستخدمين استخدامها.
-- `owner` : يجب تعيين `owner` لمعرف المستخدم الخاص بك.
-- `probot` : يجب تعيين `probot` لمعرف البوت الخاص بك.
-- `buylogs` : يجب تعيين `buylogs` لمعرف قناة السجلات الخاصة بالبيع.
-- `webhookurl` : يجب تعيين `webhookurl` لرابط الويب هوك الخاص بك.
-- `buyrole1`, `buyrole2`, `buyrole3`, `buyrole4`: يجب تعيين الأدوار المختلفة التي يمكن للمستخدم
+If you have any issues with the project, feel free to join our support server or contact me personally at YAZAN#1411.
