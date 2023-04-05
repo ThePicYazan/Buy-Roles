@@ -1,0 +1,23 @@
+
+{
+    "prefix" : "$",
+    "owner" : "id owner", 
+    "probot" : "282859044593598464",
+    "buylogs" : "id channel logs",
+    "webhookurl" : "link webhook",
+
+    "buyrole1" : "role 1",
+    "buyrole2" : "role 2",
+    "buyrole3" : "role 3",
+    "buyrole4" : "role 4",
+
+    "price1" : "100",
+    "price2" : "50",
+    "price3" : "2000",
+    "price4" : "2344",
+
+    "time1" : "10d", 
+    "time2" : "30d",
+    "time3" : "30d",
+    "time4" : "30d"
+}

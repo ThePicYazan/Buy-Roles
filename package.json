@@ -1,0 +1,17 @@
+{
+  "name": "buy-roles",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "YAZAN#1411",
+  "license": "ISC",
+  "dependencies": {
+    "crypto": "^1.0.1",
+    "discord.js": "^14.8.0",
+    "mongoose": "^7.0.1",
+    "ms": "^2.1.3"
+  }
+}
