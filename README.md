@@ -26,7 +26,8 @@ In the `config.json` file, the following values must be modified with the approp
 - `owner`: `owner` should be set to your user ID.
 - `probot`: `probot` should be set to your bot's ID.
 - `buylogs`: `buylogs` should be set to the ID of the sales logs channel.
-- `webhookurl`: `webhookurl` should be set to your error tracking webhook link.
+- `webhookurl`: `webhookurl` should be set to your error tracking webhook link. If you encounter any errors with the project, they will be sent to this webhook.
+
 - `buyrole1`, `buyrole2`, `buyrole3`, `buyrole4`: These roles should be set to the different roles that users can purchase. 
 
-If you have any issues with the project, feel free to join our support server or contact me personally at YAZAN#1411.
+If you have any issues with the project, feel free to join our support server at [https://discord.gg/ra3d] or contact me personally at YAZAN#1411.
